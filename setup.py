@@ -13,7 +13,7 @@ from level import Level
 from game_data import level_0, level_1
 import button
 from path import getpath, logo
-from moviepy.editor import VideoFileClip
+from moviepy import VideoFileClip
 from pygame import mixer
 from gui import *
 from read_score import *

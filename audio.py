@@ -1,6 +1,9 @@
+import os
 from pygame.locals import *
 from pygame import mixer
 
+# Initialize pygame mixer
+mixer.init()
 
 def music(path, volume):
     """
@@ -13,6 +16,9 @@ def music(path, volume):
     Returns:
     None
     """
+    if not os.path.exists(path):
+        print(f"Error: Sound file '{path}' not found.")
+        return
     sound = mixer.Sound(path)
     sound.set_volume(volume)
     sound.play()

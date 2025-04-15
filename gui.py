@@ -49,20 +49,20 @@ class GUI:
         self.coin_silver = pygame.image.load("./graphics/coins/silver/0.png")
         self.coin_gold_rect = self.coin_gold.get_rect(topleft=(30, 47))
         self.coin_silver_rect = self.coin_silver.get_rect(topleft=(30, 75))
-        self.font_gold = pygame.font.Font("./graphics/coins/ARCADEPI.ttf", 30)
-        self.font_silver = pygame.font.Font("./graphics/coins/ARCADEPI.ttf", 30)
+        self.font_gold = pygame.font.Font("./graphics/coins/ARCADEPI.TTF", 30)
+        self.font_silver = pygame.font.Font("./graphics/coins/ARCADEPI.TTF", 30)
 
         # tagine
         self.tagine = pygame.image.load("./graphics/character/tajine.png")
         self.tagine_rect = self.tagine.get_rect(topleft=(1170, 12))
-        self.font_tagine = pygame.font.Font("./graphics/coins/ARCADEPI.ttf", 30)
+        self.font_tagine = pygame.font.Font("./graphics/coins/ARCADEPI.TTF", 30)
 
         # score
-        self.font_score = pygame.font.Font("./graphics/coins/ARCADEPI.ttf", 30)
-        self.font_score_count = pygame.font.Font("./graphics/coins/ARCADEPI.ttf", 30)
-        self.font_high_score = pygame.font.Font("./graphics/coins/ARCADEPI.ttf", 70)
+        self.font_score = pygame.font.Font("./graphics/coins/ARCADEPI.TTF", 30)
+        self.font_score_count = pygame.font.Font("./graphics/coins/ARCADEPI.TTF", 30)
+        self.font_high_score = pygame.font.Font("./graphics/coins/ARCADEPI.TTF", 70)
         # Congrats
-        self.font_congrats = pygame.font.Font("./graphics/coins/ARCADEPI.ttf", 50)
+        self.font_congrats = pygame.font.Font("./graphics/coins/ARCADEPI.TTF", 50)
 
     def show_health(self, current):
         """

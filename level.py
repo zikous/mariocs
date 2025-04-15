@@ -304,7 +304,7 @@ class Level:
                         self.hit = True
                         self.fact = 0.25
                         self.vitesse_joueur = vitesse_joueur * self.fact
-                        music("./music/Marioc_hit.wav", 0.3)
+                        music("./music/marioc_hit.wav", 0.3)
         if self.hit:
             self.count += 1
         if self.count >= 40:
