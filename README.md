@@ -102,7 +102,7 @@ Si vous souhaitez découvrir le MVP et voir les tests effectués pour s'assurer 
 
 ## Répartition des rôles
 
-Dans le cadre de ce projet, chacun des membres a contribué au développement global du jeu, avec des domaines de spécialisation. Voici un résumé des tâches dominantes de chaque membre :
+Dans le cadre de ce projet, chacun des membres a contribué au développement global du jeu avec des domaines de spécialisation. Voici un résumé des tâches dominantes de chaque membre :
 
 - **Bheddar Zakaria** :
     - Gestion de la logique du jeu, développement et correction de bugs.
